@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import Categories from './components/Categories';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
